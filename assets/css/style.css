@@ -1,0 +1,140 @@
+body {
+  margin:0;
+}
+
+.ancho{
+    margin-right: 10%;
+    margin-left: 15%;
+    width:960px;
+  
+}
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+/* So hard!!! */
+.header a {
+  float: right;
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding-top: 62px;
+  padding-left: 8px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header p {
+    background-color:#4aaaa5;
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    float: left;
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 30px;
+  margin-top: 34px;
+  margin-bottom:0px;
+  width: 130px;
+  height: 35px;
+
+}
+.footer {
+  clear: both;
+  display:block;
+  border-top: 5px solid teal;
+  overflow: hidden;
+  background-color: #666666;
+  position: fixed;
+  top: 93%;
+  width: 100%;
+  height: 30%;
+  border-top-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 40px;
+  margin-bottom: 20%;
+}
+.main {
+  background-color:#ffffff;
+  padding: 20px;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 20%;
+  height: 600px;
+  width: 960px;
+  color: #4aaaa5;
+}
+
+.yo {
+  margin-top: 20px;
+  float:left;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.about {
+  color: #777777;
+  border-top: 2px solid #ccc;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+}
+
+.image
+{
+  display:block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.image-text{
+  opacity: .8;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-top: -60px;
+  padding:20px;
+}
+
+.table{
+border-top: 2px solid #ccc;
+
+}
+
+.button{
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  padding:10px;
+}
+
+.form-n{
+width: 90%;
+height: 10%;
+}
+.form-e{
+width: 90%;
+height: 10%;
+}
+.form-m{
+width: 80%;
+;
+}
+
+@media only screen and (max-width: 980px) {
+
+  p {
+    color:blue;
+
+  }
+}
